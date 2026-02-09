@@ -1,16 +1,103 @@
-# React + Vite
+# React Todo App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly **React Todo App** built to understand core React concepts by working on a real-world project.
 
-Currently, two official plugins are available:
+This project demonstrates how to manage state, pass data between components, handle CRUD operations, and persist data using **localStorage**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Live Project: https://react-todo-six-virid.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Add new todos
+- Edit existing todos
+- Delete todos
+- Controlled form inputs
+- Conditional rendering (view / edit mode)
+- Data persistence using localStorage
+
+---
+
+## 🧠 Concepts Covered
+
+- React component structure
+- `useState` hook
+- `useEffect` hook
+- Props and parent–child communication
+- Lifting state up
+- UI state vs application state
+- Immutability in React
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- CSS
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│── App.jsx
+│── TodoApp.jsx
+│── TodoInput.jsx
+│── TodoList.jsx
+│── App.css
+│── index.js
+```
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/jdcodebase/react-todo-app
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📚 Part of Web Development Series
+
+This project is part of the **Web Development Series by JDCodebase**, where we cover:
+
+- HTML
+- CSS
+- JavaScript
+- React
+- MERN Stack
+
+---
+
+## 🙌 Support
+
+If you found this project helpful:
+
+- ⭐ Star the repository
+- 📺 Subscribe on YouTube
+- 🔁 Share with others
+
+Happy Coding 🚀
+**JDCodebase**
